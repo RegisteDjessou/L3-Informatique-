@@ -8,7 +8,7 @@
 
 def election():
     MINIMUM_1ER = 50
-    MINIMUM_BELOTAGE = 12.5
+    MINIMUM_BELOTAGE = 12.5 #"ballotage"
     
     """  Traite du resultat du candidat 1 a une election """
     candidat1 = float(input("Entrez le score du candidat 1: "))
@@ -33,5 +33,5 @@ def election():
             message = "Candidat 1 en balotage defavorable"
     return message
 
-print(election())
+print(election()) 
             
