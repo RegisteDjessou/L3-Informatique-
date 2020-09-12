@@ -22,4 +22,4 @@ def reprographie(nombre_photocopies: int):
         facture =(PRIX1*SEUIL_PRIX1) + (PRIX2*SEUIL_PRIX2) + PRIX3*(nombre_photocopies - (SEUIL_PRIX1+SEUIL_PRIX2))
     return facture
 
-print(reprographie(31))
+print(reprographie(31)) #normalement il faudirait faire plus qu'un test pour s'assurer que l'algo marche correctement
