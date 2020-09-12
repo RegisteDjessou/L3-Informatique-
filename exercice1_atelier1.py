@@ -33,3 +33,5 @@ def salaire(salaire_horaire: float, nombre_heures:float)-> float :
 
 print("Test1", salaire(1,220))
 print("Test2", salaire(30,200))
+
+#Plutôt que de faire des tests qui se baladent comme ça, tu peux faire directement une fonction "test", qui fait tous les tests d'un coup
