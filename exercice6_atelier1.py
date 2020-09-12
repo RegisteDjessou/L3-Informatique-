@@ -9,13 +9,14 @@ def frais_mensuel(nbre_km: float, type_carburant: str, cylindree: int, prix_carb
     """Calcul les frais mensuels d'utilisation d'une voiture"""
     TYPE_CARBURANT_ESSENCE = "E"
     TYPE_CARBURANT_DIESEL = "D"
+    CYLINDRE_2000 = 2000
+    NBRE_LITRE_PAR_KM_1 = 0.1
+    NBRE_LITRE_PAR_KM_2 = 0.08
+    SURCOUT_1 = 1.5
+    SURCOUT_2 = 1.7
     
     if(type_carburant == TYPE_CARBURANT_ESSENCE or type_carburant == TYPE_CARBURANT_DIESEL):
-        CYLINDRE_2000 = 2000
-        NBRE_LITRE_PAR_KM_1 = 0.1
-        NBRE_LITRE_PAR_KM_2 = 0.08
-        SURCOUT_1 = 1.5
-        SURCOUT_2 = 1.7
+        
     
         if (type_carburant == TYPE_CARBURANT_ESSENCE):
             if(cylindree > CYLINDRE_2000):
