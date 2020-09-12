@@ -6,7 +6,7 @@
 """
 
 
-def salaire(salaire_horaire: float, nombre_heures:float)-> float :
+def salaire(salaire_horaire: float, nombre_heures:float)-> float : #attention, pour tout l'atelier 1 on ne devait pas mettre de return ni de paramètres dans nos fonctions
     
     """Calcul de salaire en fontion du nombre d'heures"""
     
