@@ -36,7 +36,7 @@ def assurance():
             elif(nombre_accident == NOMBRE_ACCIDENT_1):  
                 tarif = TARIF_ROUGE
             else:  
-                tarif=0
+                tarif=0 #tu as oublié d'utiliser ta constante ici, je crois
     else: 
         
          
