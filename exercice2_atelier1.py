@@ -1,7 +1,9 @@
+"""
 #Auteur: Watt_Registe
 #Date: 07/09/20
 #Version: 1
 #Description: Precise type de caractere 
+"""
 
 def caracteres(caractere: str):
     """ Retourne le type du caractere entré """
