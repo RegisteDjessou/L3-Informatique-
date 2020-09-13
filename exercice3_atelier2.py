@@ -25,7 +25,7 @@ def racine_double (a: float, b:float, delta: float, num: int)-> float:
         else: 
             x = (-b - math.sqrt(delta))/(2*a)
     else:
-        x = "pas de solution"
+        x = "pas de solution" #dans ce cas, x n'est pas un float, donc le type de retour spécifié plus haut n'est pas correct
     return x
     
 #4
